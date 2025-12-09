@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karban Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <nav>
+            <h3>Karban Board</h3>
+            <button>Add New Task</button>
+        </nav>
+        <section class="board">
+            <div id="todo" class="task_colum">
+                <div class="heading">
+                    <h4>To Do</h4>
+                    <p>Count</p>
+                </div>
+                <div draggable="true" class="task">
+                    <h2>Task 1</h2>
+                    <p>Description for task 1</p>
+                    <button>Delete</button>
+                </div>
+            </div>
+            <div id="progress" class="task_colum">
+                <div class="heading">
+                    <h4>In Progress</h4>
+                    <p>Count</p>
+                </div>
+            </div>
+            <div id="done" class="task_colum">
+                <div class="heading">
+                    <h4>Done</h4>
+                    <p>Count</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
