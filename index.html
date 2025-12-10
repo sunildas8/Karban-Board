@@ -10,7 +10,7 @@
     <main>
         <nav>
             <h3>Karban Board</h3>
-            <button>Add New Task</button>
+            <button id="toggle_modal">Add New Task</button>
         </nav>
         <section class="board">
             <div id="todo" class="task_colum">
@@ -38,6 +38,15 @@
             </div>
         </section>
     </main>
+
+    <div class="modal add_new_task">
+        <div class="bg"></div>
+        <div class="center">
+            <input type="text" id="task_input" placeholder="Task Title">
+            <textarea id="task_desc" placeholder="Task Description"></textarea>
+            <button id="add_new_task" class="add_task_btn">Add Task</button>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
