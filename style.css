@@ -102,6 +102,7 @@ nav button:active{
 }
 
 .board .task_colum{
+    width: 100%;
     background-color: var(--bg-button-color);
     flex-grow: 1;
     padding: var(--padding-l);
